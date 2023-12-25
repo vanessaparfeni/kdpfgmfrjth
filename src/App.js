@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const url = "https://reactjs.org"
+
   return (
     <div className="App">
       <header className="App-header">
@@ -11,7 +13,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href={url}
           target="_blank"
           rel="noopener noreferrer"
         >
